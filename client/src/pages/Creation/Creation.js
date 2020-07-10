@@ -752,7 +752,7 @@ class Creation extends Component {
 }
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyCYqTOlIwQvYh30rp3riNLP137QWdTxzY4",
+  apiKey: "",
 })(Creation);
 
 connect()(AddTodo);
