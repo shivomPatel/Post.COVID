@@ -1,0 +1,49 @@
+.todo {
+  list-style: none;
+  background: linear-gradient(to right, white 70%, rgb(233, 233, 233) 10%);
+  min-height: 100px;
+  border-radius: 6px;
+  padding: 10px;
+  color: rgb(0, 89, 255);
+  border: 1px solid rgb(214, 212, 212);
+  overflow: hidden;
+}
+
+.index {
+  background: rgb(0, 89, 255);
+  border-radius: 50%;
+  display: inline-block;
+  padding-top: 3px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.ellipses-icon {
+  margin-left: 5px;
+  font-size: 20pt;
+}
+
+.delete-button {
+  float: right;
+  margin-top: 50px;
+  margin-right: 20px;
+  font-size: 14pt;
+  background: rgb(238, 236, 236);
+  border-radius: 50%;
+  border-style: none;
+  display: inline-block;
+  padding-top: 3px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.trash-icon-color > path {
+  color: rgb(75, 74, 74);
+}

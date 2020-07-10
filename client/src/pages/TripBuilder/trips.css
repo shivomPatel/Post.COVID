@@ -1,0 +1,180 @@
+.tripbuilder-bg {
+  background-image: linear-gradient(to bottom, #002a3d 36%, #f7f3f3 10%);
+}
+
+.background-trips-body {
+  height: 85vh;
+  max-width: 75vh;
+  background-color: white;
+  padding: 10px;
+  margin-top: 3%;
+  margin-bottom: 80px;
+}
+
+.builder-btn {
+  background-color: rgb(26, 25, 25);
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 6px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: white;
+  font-size: 15px;
+  border: 1px solid white;
+  box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  -o-box-shadow: 0 0 5px black;
+}
+
+.builder-btn:hover {
+  background-color: gold;
+  color: white;
+  transition: 0.3s;
+}
+
+.trips-box {
+  background-color: rgb(26, 25, 25);
+  text-align: center;
+  height: 300px;
+  margin-top: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 10px;
+  border-radius: 6px;
+  color: black;
+  border: 1px solid white;
+  box-shadow: 0 0 5px black;
+  -moz-box-shadow: 0 0 5px black;
+  -webkit-box-shadow: 0 0 5px black;
+  -o-box-shadow: 0 0 5px black;
+}
+
+.trip {
+  border-bottom: 1px solid rgb(204, 204, 204);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 3%;
+  margin-left: 3%;
+  font-size: 15px;
+}
+
+.trip:hover {
+  background-color: rgb(136, 135, 135);
+  border-radius: 5px;
+}
+
+.route-icon {
+  font-size: 200pt;
+  margin-left: 35%;
+  margin-right: 25%;
+  margin-top: 40%;
+  padding: 60px;
+  border: 2px solid rgb(0, 132, 255);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.192);
+}
+
+.route-icon-color > path {
+  color: rgb(255, 219, 16);
+}
+
+.column-trip {
+  width: 50%;
+  margin-right: -10px;
+}
+
+@media screen and (max-width: 1000px) {
+  .route-icon {
+    color: transparent;
+  }
+  .column-trip {
+    width: 100%;
+  }
+}
+
+.build-title {
+  margin-left: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.trips-title {
+  margin-left: 30px;
+  color: aliceblue;
+}
+
+.trip-form {
+  height: 100%;
+  background-color: white;
+}
+
+.form-layer {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 30px;
+}
+
+.labels {
+  color: black;
+  float: left;
+  font-weight: lighter;
+  font-size: 10pt;
+}
+
+.feather-icon {
+  font-size: 40pt;
+}
+
+.createtrip-title {
+  color: #076fa0;
+  margin-bottom: 30px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border-style: none;
+  background-color: rgb(247, 244, 244);
+  border-bottom: 1px solid rgb(0, 110, 255);
+  margin-top: 10px;
+  font-size: 11pt;
+  color: #002a3d;
+}
+
+.btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: black;
+  border-radius: 5px;
+  font-size: 10pt;
+  background-color: white;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-color: rgb(53, 107, 255);
+  color: white;
+}
+
+.submit-button {
+  width: 80%;
+  margin-top: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #5aa6fd;
+  color: white;
+  font-weight: bold;
+  font-size: 11pt;
+  border-style: none;
+  border-radius: 3px;
+  border-bottom: 3px solid #0083fd;
+  box-shadow: 0 5px 2px -2px gray;
+}
+
+.submit-button:hover {
+  box-shadow: 0 4.2px 2px -2px gray;
+}

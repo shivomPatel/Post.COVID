@@ -1,0 +1,305 @@
+/* .creation-bg {
+  min-height: 90vh;
+  border-top: 50px solid black;
+}
+
+.row-c {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50%;
+}
+
+.page-body {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.creation-row {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.column-creation {
+  padding-top: 10px;
+  width: 50%;
+  height: 110vh;
+}
+
+.types-creation {
+  color: gold;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 2px;
+  display: inline-block;
+  border: 2px solid rgb(29, 28, 28);
+}
+
+.column-creation-left {
+  background: #002a3d;
+  height: 110vh;
+  overflow-y: scroll;
+}
+
+.header {
+  position: relative;
+  font-size: 15px;
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+}
+.header:before,
+.header:after {
+  position: absolute;
+  top: 51%;
+  overflow: hidden;
+  width: 50%;
+  height: 1px;
+  content: "\a0";
+  background-color: rgb(53, 107, 255);
+}
+.header:before {
+  margin-left: -50%;
+
+  
+  text-align: right;
+}
+
+.tab-comp {
+  height: 100vh;
+  margin-top: 10px;
+  display: flex;
+}
+
+.tab-content {
+  overflow-y: scroll;
+  color: black;
+  background-color: white;
+  min-height: 95vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 900px) {
+  .column-creation {
+    width: 100%;
+  }
+  .tab-content {
+    height: 55vh;
+  }
+}
+
+.back-btn {
+  padding-left: 30px;
+  color: black;
+  font-size: 13pt;
+}
+
+.arrow-icon {
+  margin-right: 20px;
+  font-size: 17pt;
+}
+
+.arrow-icon > path {
+  color: white;
+  border: 2px solid black;
+}
+
+.place-strong {
+  color: rgb(53, 107, 255);
+}
+
+.calendar-ico {
+  margin-top: 90px;
+  border: 1px solid rgba(38, 105, 248, 0.829);
+  border-radius: 50%;
+  font-size: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 100px;
+  height: auto;
+}
+
+.calendar-icon-color > path {
+  color: rgba(38, 105, 248, 0.61);
+}
+
+.rating-margin {
+  margin-bottom: 10px;
+}
+
+.img-ico {
+  margin-top: 90px;
+  border: 1px solid rgba(38, 105, 248, 0.829);
+  border-radius: 50%;
+  font-size: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 90px;
+  height: auto;
+}
+
+.img-icon-color > path {
+  color: rgba(38, 105, 248, 0.61);
+}
+
+.card-b {
+  background-color: rgb(228, 238, 250);
+  margin-bottom: 10px;
+  padding: 15px;
+} */
+
+/* New page ====================================================== */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: 100px;
+  background-color: white;
+}
+
+.grid-container > div {
+  text-align: center;
+  min-height: 113vh;
+}
+
+.column-left {
+  background-color: #002a3d;
+  min-height: 105vh;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  overflow-y: scroll;
+}
+
+.column-right {
+  min-height: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-container > div {
+    width: 100%;
+  }
+  .Button {
+    width: 100%;
+  }
+}
+
+/* Icons */
+.img-ico {
+  margin-top: 90px;
+  border: 1px solid rgba(38, 105, 248, 0.829);
+  border-radius: 50%;
+  font-size: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 90px;
+  height: auto;
+}
+
+.img-icon-color > path {
+  color: rgba(38, 105, 248, 0.61);
+}
+
+.calendar-ico {
+  margin-top: 90px;
+  border: 1px solid rgba(38, 105, 248, 0.829);
+  border-radius: 50%;
+  font-size: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+  width: 100px;
+  height: auto;
+}
+
+.calendar-icon-color > path {
+  color: rgba(38, 105, 248, 0.61);
+}
+
+.back-btn {
+  padding-left: 30px;
+  color: black;
+  font-size: 13pt;
+}
+
+.arrow-icon {
+  margin-right: 20px;
+  font-size: 17pt;
+}
+
+.arrow-icon > path {
+  color: white;
+  border: 2px solid black;
+}
+
+.place-strong {
+  color: rgb(53, 107, 255);
+}
+
+/* Cards */
+
+.types-creation {
+  color: gold;
+  background-color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 2px;
+  display: inline-block;
+  border: 2px solid rgb(29, 28, 28);
+}
+
+.rating-margin {
+  margin-bottom: 10px;
+}
+
+.card-b {
+  background-color: rgb(228, 238, 250);
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+/* Tab Component */
+.tab-content {
+  overflow-y: scroll;
+  color: black;
+  background-color: white;
+  min-height: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.place-length {
+  margin-bottom: 40px;
+}
+
+.nope-title {
+  margin-bottom: 120px;
+}

@@ -1,0 +1,52 @@
+.tab-list {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-top: 7px;
+  margin-bottom: -6px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.418);
+  border-radius: 6px;
+  margin-left: 9px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .tab-list-item {
+    width: 95%;
+  }
+}
+
+.tab-list-item:hover {
+  transition: 0.5s;
+  font-weight: bold;
+  font-size: 12pt;
+  background-color: white;
+}
+
+.tab-list-active {
+  background-color: white;
+  color: rgb(53, 107, 255);
+  font-weight: bold;
+  border-width: 1px 1px 0 1px;
+  -webkit-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px -4px 3px rgba(50, 50, 50, 0.75);
+}
+
+.tab-icon-span {
+  margin-right: 10px;
+  font-size: 13pt;
+}
+
+.tab-icon > path {
+  color: black;
+}

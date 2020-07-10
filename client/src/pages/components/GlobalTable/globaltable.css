@@ -1,0 +1,157 @@
+/* New Table =========================================================================  */
+
+table.scrolldown {
+  width: 100%;
+  border-spacing: 0;
+  border-radius: 6px;
+}
+
+table.scrolldown tbody,
+table.scrolldown thead {
+  display: block;
+}
+
+thead tr th {
+  height: 30px;
+  line-height: 40px;
+}
+
+table.scrolldown tbody {
+  height: 50vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+tbody td,
+thead th {
+  width: 400px;
+  padding-left: 15px;
+}
+
+thead {
+  background: linear-gradient(to top, #101b27, #2f3e55);
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+td {
+  text-align: left;
+  color: black;
+}
+
+tr {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.table-box {
+  box-shadow: 7px 5px 5px -3px rgba(92, 92, 92, 0.4),
+    0px 8px 10px rgba(92, 92, 92, 0.6), -8px 5px 5px -3px rgba(92, 92, 92, 0.4);
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+}
+
+.content {
+  /* font-weight: bold; */
+  font-size: 13pt;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Country {
+  padding-left: 40px;
+  color: white;
+  border-radius: 10px;
+  font-size: 12pt;
+}
+
+.Active {
+  padding-left: 30px;
+  color: white;
+  font-size: 12pt;
+}
+
+.Confirmed {
+  padding-left: 20px;
+  color: white;
+  font-size: 12pt;
+}
+
+.Deaths {
+  color: white;
+  font-size: 12pt;
+}
+
+.Recovered {
+  color: white;
+  font-size: 12pt;
+}
+
+.titles-bar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+/* Column Styles */
+
+.country-style {
+  color: rgb(252, 252, 252);
+  padding-left: 40px;
+}
+
+.active-style {
+  color: greenyellow;
+}
+
+.confirmed-style {
+  color: rgb(0, 140, 255);
+}
+
+.dailychange-style {
+  color: #008cff;
+}
+
+.deaths-style {
+  color: red;
+}
+
+.recovered-style {
+  color: rgb(32, 100, 1);
+}
+
+/* End of Column Styles */
+
+.row-content-light {
+  background-color: rgb(236, 236, 236);
+}
+
+/* .row-content:hover {
+  background-color: rgba(19, 60, 136, 0.418);
+} */
+
+.data-searchbar {
+  width: 20%;
+  font-size: 12pt;
+  color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-bottom: 2px solid rgb(55, 165, 255);
+  background-color: rgb(245, 243, 243);
+}
+
+.up-arrow-icon > path {
+  color: #008cff;
+}
+
+.up-arrow-icon-deaths > path {
+  color: red;
+}

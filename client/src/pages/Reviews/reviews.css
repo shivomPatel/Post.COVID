@@ -1,0 +1,176 @@
+.review-background {
+  background-image: linear-gradient(to bottom, #002a3d 400px, #f3f2f2 10%);
+  min-height: 100%;
+  padding-bottom: 30px;
+}
+
+.review-box {
+  background-color: white;
+  width: 58rem;
+  min-height: 70rem;
+  padding: 40px;
+}
+
+.review-submission-box {
+  background-color: white;
+  width: 58rem;
+  min-height: fit-content;
+  margin-top: 20px;
+  padding: 35px;
+}
+
+.reviews-title {
+  margin-right: 20px;
+}
+
+.review-description {
+  width: 55rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.submit {
+  margin-top: 20px;
+}
+
+.write-button {
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: #3b97ff;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 3px;
+  border-bottom: 3px solid #0065fd;
+  box-shadow: 0 4px 2px -2px gray;
+}
+
+.name-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 11pt;
+}
+
+.review-input {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+}
+
+.place-input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 11pt;
+}
+
+.place-input,
+.review-input,
+.name-input {
+  color: black;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid rgb(211, 208, 208);
+}
+
+.user-review-title {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.average-rating {
+  color: #fd002e;
+}
+
+.average-box {
+  color: #292929;
+}
+
+.stars {
+  float: right;
+}
+
+.review-name {
+  display: inline-block;
+}
+
+/* Review Box */
+
+.reviews-list-item {
+  list-style: none;
+  text-align: left;
+}
+
+.review-title {
+  color: black;
+  font-size: 12pt;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.star-rating {
+  float: right;
+}
+
+.review-content {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: rgb(75, 75, 75);
+}
+
+.date-box {
+  margin-bottom: 15px;
+}
+
+.date-string {
+  color: rgb(167, 165, 165);
+  font-size: 8pt;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 20px;
+}
+
+.written-title {
+  color: black;
+  font-size: 8pt;
+  padding-bottom: 20px;
+}
+
+.rating-input-box {
+  float: left;
+  color: rgb(75, 74, 74);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+}
+
+.input-spinner {
+  color: black;
+  border-style: none;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 60px;
+}
+
+.place-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: gold;
+  background-color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+  width: fit-content;
+  margin-bottom: 15px;
+}
+
+/* Modal ================================================================== */
